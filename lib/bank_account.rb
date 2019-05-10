@@ -17,6 +17,6 @@ class BankAccount
   end
   
   def valid?
-    
+    valid == true || balance > 0 
   end 
 end
