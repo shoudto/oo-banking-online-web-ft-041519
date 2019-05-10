@@ -31,6 +31,6 @@ class Transfer
   
     def reverse_transfer
       # binding.pry 
-      @receiver.balance -= amount 
+      @receiver.balance += amount 
     end 
 end
