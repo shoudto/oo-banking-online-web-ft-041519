@@ -18,6 +18,5 @@ class Transfer
   
   def execute_transaction
     binding.pry 
-    @balance 
   end 
 end
