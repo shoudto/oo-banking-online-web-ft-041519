@@ -9,6 +9,6 @@ class BankAccount
   end 
   
   def deposit(item)
-    
+    @balance += t
   end 
 end
