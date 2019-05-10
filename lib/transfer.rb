@@ -1,4 +1,4 @@
-binding.pry 
+require 'pry'
 class Transfer
   
   attr_accessor :status, :amount
@@ -11,7 +11,8 @@ class Transfer
     @amount = amount 
   end 
   
-  def valid? 
+  def valid?
+    binding.pry 
     @sender == @receiver ? true : false
   end 
 end
