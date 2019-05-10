@@ -13,6 +13,5 @@ class Transfer
   
   def valid? 
     @sender == @receiver ? true : false
-    binding.pry 
   end 
 end
