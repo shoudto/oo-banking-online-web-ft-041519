@@ -23,7 +23,8 @@ class Transfer
       @sender.balance -= amount  
       @receiver.balance += amount 
       self.status = "complete"
-    # else 
+     else 
+      @status = "rejected"
       
     end 
     
