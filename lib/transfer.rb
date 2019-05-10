@@ -12,7 +12,7 @@ class Transfer
   end 
   
   def valid?
-    binding.pry 
+    # binding.pry 
     @sender.balance == @receiver.balance ? true : false
   end 
 end
